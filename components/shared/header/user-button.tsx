@@ -26,8 +26,6 @@ const UserButton = async () => {
 
   const firstInitial = session.user?.name?.charAt(0).toUpperCase() ?? '';
 
-
-
   return <div className="flex gap-2 items-7">
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
