@@ -61,3 +61,9 @@ When finished editing schema.prisma file, or adding new tables/fields, always ru
 `npx prisma generate`
 
 `npx prisma migrate dev --name add_user_based_tables` while "add_user_based_tables" should be a message relating to what you did.
+
+DB is hosted on Neon
+
+### Seeding DB
+
+Sample-data.ts is the data used to seed the db with the script seed.ts using the command `npx ts ./db/seed`
