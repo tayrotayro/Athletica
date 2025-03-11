@@ -7,6 +7,13 @@ export const signInDefaultValues = {
   password: ''
 }
 
+export const signUpDefaultValues = {
+  name: '',
+  email: '',
+  password: '',
+  confirmPassword: '',
+}
+
 // Pink from logo
 // #db518c
 // rgba(219,81,140,255)
