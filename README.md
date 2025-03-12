@@ -57,12 +57,21 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Notes
 
+### Creating and Updating DB Schema 
+
 When finished editing schema.prisma file, or adding new tables/fields, always run these commands:
 `npx prisma generate`
 
 `npx prisma migrate dev --name add_user_based_tables` while "add_user_based_tables" should be a message relating to what you did.
 
+You can then check prisma studio to verify you have created the tables by running `npx prisma studio`
+
 DB is hosted on Neon
+
+### Adding Components from ShadCN
+
+`npx shadcn@latest add toast` where "toast" is the component you want to add.
+Sometimes you may need to use --legacy-peer-deps
 
 ### Seeding DB
 
