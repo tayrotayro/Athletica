@@ -38,7 +38,8 @@ const CredentialsSignInForm = () => {
           name='email'
           type='email'
           autoComplete='email'
-          defaultValue={signInDefaultValues.email}/>
+          defaultValue={signInDefaultValues.email}
+        />
       </div>
       <div>
         <Label htmlFor='password'>Password</Label>
@@ -47,7 +48,8 @@ const CredentialsSignInForm = () => {
           name='password'
           type='password'
           autoComplete='password'
-          defaultValue={signInDefaultValues.password} />
+          defaultValue={signInDefaultValues.password}
+        />
       </div>
       <div>
         <SignInButton />
